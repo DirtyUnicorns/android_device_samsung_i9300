@@ -67,6 +67,11 @@ PRODUCT_PACKAGES += \
 # Other
 PRODUCT_PACKAGES += \
 	OmniTorch
+	
+# Boot animation
+PRODUCT_COPY_FILES += \
+    vendor/du/bootanimations/bootanimation_720_1280.zip:system/media/bootanimation.zip
+
 
 PRODUCT_COPY_FILES += \
     packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
